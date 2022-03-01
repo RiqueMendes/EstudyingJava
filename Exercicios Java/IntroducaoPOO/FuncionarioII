@@ -1,0 +1,25 @@
+package ExerciciosJava;
+
+public class FuncionarioII {
+
+	boolean trabalhando;
+	boolean deFolga;
+
+	public void trabalhar() {
+		trabalhando = true;
+		System.out.println("O funcionario está na empresa");
+	}
+
+	public void folgar() {
+		trabalhando = false;
+		System.out.println("O funcionario não está na empresa");
+	}
+
+	public void escrever() {
+		if (trabalhando == true) {
+			System.out.println("O funcionario pode executar a tarefa");
+		} else {
+			System.out.println("O funcionario não pode executar a tarefa");
+		}
+	}
+}

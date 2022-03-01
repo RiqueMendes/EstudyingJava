@@ -1,0 +1,28 @@
+package ExerciciosJava;
+
+
+
+public class Funcionario {
+
+	
+	
+	public static void main(String[] args) {
+		FuncionarioII f1 = new FuncionarioII();
+		FuncionarioII f2 = new FuncionarioII();
+		
+		
+		
+		
+		f1.trabalhar();
+		f1.escrever();
+		f1.trabalhando = true;
+		f2.folgar();
+		f2.escrever();
+		f2.trabalhando = false;
+		
+		
+		
+	}
+	
+
+}
